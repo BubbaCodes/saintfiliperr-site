@@ -115,6 +115,70 @@ body {
     linear-gradient(115deg, #fff8fc 0%, #fff8fc 49%, #f0fffd 100%);
 }
 
+.friends-hero {
+  min-height: calc(100vh - 78px);
+  background-image:
+    var(--heart-pattern),
+    radial-gradient(ellipse at 82% 18%, rgba(205, 250, 244, 0.52), transparent 36%),
+    linear-gradient(115deg, #fff8fc 0%, #fff8fc 49%, #f0fffd 100%);
+}
+
+.friends-card {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: clamp(32px, 7vw, 72px);
+  border: 1px solid rgba(69, 45, 70, 0.08);
+  border-radius: 26px;
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: 0 24px 60px rgba(95, 78, 111, 0.08);
+  text-align: center;
+}
+
+.friends-card .section-kicker {
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.friends-card h1 {
+  margin-bottom: 16px;
+  font-size: clamp(2.8rem, 7vw, 5rem);
+}
+
+.friends-intro {
+  max-width: 570px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.friends-empty {
+  max-width: 540px;
+  margin: 38px auto 28px;
+  padding: 32px 24px;
+  border: 1px solid #f1e4ee;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #fff4f9, #f1fbfa);
+}
+
+.friends-heart {
+  color: var(--pink);
+  font-size: 2rem;
+}
+
+.friends-empty h2 {
+  margin: 10px 0 8px;
+  font-family: var(--font-heading);
+  font-size: 1.45rem;
+  font-weight: 700;
+}
+
+.friends-empty p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
 .hero-content {
   position: relative;
   z-index: 1;
