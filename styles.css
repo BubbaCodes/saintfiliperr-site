@@ -47,9 +47,12 @@ body {
   color: var(--ink);
 }
 
-.brand-mark {
-  color: var(--gold);
-  font-size: 1.4rem;
+.brand-logo {
+  display: block;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 auto;
+  object-fit: contain;
 }
 
 .brand-accent {
