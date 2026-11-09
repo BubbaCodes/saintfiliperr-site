@@ -705,7 +705,9 @@ h1 {
 }
 
 .content-copy {
-  padding-left: clamp(12px, 5vw, 70px);
+  max-width: 760px;
+  margin: 0 auto;
+  padding-left: 12px;
 }
 
 .content-copy p {
