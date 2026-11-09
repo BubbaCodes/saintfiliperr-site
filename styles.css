@@ -553,6 +553,23 @@ h1 {
   place-items: center;
 }
 
+.tiktok-embed-shell {
+  position: relative;
+  z-index: 1;
+  width: min(605px, 100%);
+  border: 1px solid rgba(49, 185, 182, 0.2);
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 23px 60px rgba(38, 118, 115, 0.12);
+}
+
+.tiktok-embed {
+  width: 100% !important;
+  max-width: 605px !important;
+  min-width: 0 !important;
+  margin: 0 auto !important;
+}
+
 .visual-frame {
   width: min(420px, 100%);
   overflow: hidden;
