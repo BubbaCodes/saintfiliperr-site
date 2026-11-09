@@ -556,18 +556,35 @@ h1 {
 .tiktok-embed-shell {
   position: relative;
   z-index: 1;
-  width: min(605px, 100%);
+  width: min(325px, 100%);
+  overflow: hidden;
   border: 1px solid rgba(49, 185, 182, 0.2);
   border-radius: 20px;
   background: #fff;
   box-shadow: 0 23px 60px rgba(38, 118, 115, 0.12);
 }
 
-.tiktok-embed {
-  width: 100% !important;
-  max-width: 605px !important;
-  min-width: 0 !important;
-  margin: 0 auto !important;
+.tiktok-player {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 325 / 578;
+  border: 0;
+}
+
+.tiktok-fallback-link {
+  display: block;
+  padding: 11px 16px;
+  color: var(--pink-deep);
+  font-size: 0.84rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.tiktok-fallback-link:hover,
+.tiktok-fallback-link:focus {
+  color: #9c2c69;
 }
 
 .visual-frame {
