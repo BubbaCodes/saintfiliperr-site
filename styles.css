@@ -492,6 +492,7 @@ h1 {
 }
 
 .content-section h2,
+.content-copy h1,
 .content-copy h2 {
   margin: 12px 0 0;
   font-size: clamp(2.8rem, 5vw, 4.2rem);
@@ -853,12 +854,14 @@ h1 {
   color: rgba(255, 255, 255, 0.84);
 }
 
+.community-card h1,
 .community-card h2 {
   margin: 12px 0 12px;
   color: #fff;
   font-size: clamp(3rem, 6vw, 4.8rem);
 }
 
+.community-card h1 span,
 .community-card h2 span {
   color: #ddfff8;
 }
@@ -1048,6 +1051,7 @@ h1 {
   }
 
   .content-section h2,
+  .content-copy h1,
   .content-copy h2 {
     font-size: 3.1rem;
   }
